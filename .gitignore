@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+storage/
+chroma_db/
+*.faiss
+*.index
+outputs/*.json
+!outputs/.gitkeep
+python_puro/**/data/benchmark.json
+python_puro/**/data/decision.json
+python_puro/**/data/*_latency.json
+python_puro/**/data/cost_estimate.json
+python_puro/**/data/comparison_plan.json

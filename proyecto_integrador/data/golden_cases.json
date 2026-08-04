@@ -1,0 +1,15 @@
+[
+  {
+    "question": "¿Cómo restablezco mi contraseña?",
+    "expected_keywords": ["contraseña", "enlace"]
+  },
+  {
+    "question": "¿Quién puede exportar un reporte?",
+    "expected_keywords": ["exportar", "permiso"]
+  },
+  {
+    "question": "¿Qué pasa con una licencia sin comprobante?",
+    "expected_keywords": ["comprobante", "pendiente"]
+  }
+]
+
