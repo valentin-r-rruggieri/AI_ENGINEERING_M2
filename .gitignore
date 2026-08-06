@@ -1,5 +1,6 @@
 .env
 .venv/
+guiones_clases/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/

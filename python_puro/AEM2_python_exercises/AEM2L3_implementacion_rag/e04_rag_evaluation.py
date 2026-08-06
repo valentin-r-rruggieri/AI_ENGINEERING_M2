@@ -7,8 +7,9 @@ from common import deterministic_embedding, read_json, split_words, top_k, write
 root=Path(__file__).parent; chunks=split_words((root/"data"/"faq.txt").read_text(encoding="utf-8"),35,8,"faq")
 vectors=[deterministic_embedding(c.content) for c in chunks]; report=[]
 for case in read_json(root/"data"/"golden_cases.json"):
+    # Recuperamos primero; la respuesta solo podría apoyarse en esta evidencia.
     results=top_k(deterministic_embedding(case["question"]),chunks,vectors,3)
     evidence=" ".join(x["chunk"]["content"].lower() for x in results)
+    # grounded indica si las palabras de evidencia esperadas están presentes en el contexto.
     report.append({"question":case["question"],"grounded":all(k in evidence for k in case["keywords"]),"chunks":[x["chunk"]["chunk_id"] for x in results]})
 write_json(root/"data"/"evaluation.json",report); print(report)
-

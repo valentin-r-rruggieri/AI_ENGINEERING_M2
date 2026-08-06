@@ -28,6 +28,7 @@ class Chunk:
 
 
 def load_environment() -> None:
+    # Cada ejercicio busca su configuración común junto a este archivo.
     load_dotenv(Path(__file__).with_name(".env"))
 
 
@@ -50,6 +51,7 @@ def cosine_similarity(left: Iterable[float], right: Iterable[float]) -> float:
     a, b = np.asarray(list(left), dtype=float), np.asarray(list(right), dtype=float)
     if a.shape != b.shape or not len(a):
         raise ValueError("Los vectores deben tener la misma dimensión y no estar vacíos.")
+    # coseno = producto punto / (norma izquierda × norma derecha).
     denominator = float(np.linalg.norm(a) * np.linalg.norm(b))
     if denominator == 0:
         raise ValueError("No se puede calcular coseno con un vector nulo.")
@@ -85,6 +87,7 @@ def split_words(text: str, chunk_size: int = 120, overlap: int = 24, source: str
         ))
         if end == len(words):
             break
+        # Retrocedemos el overlap para que la siguiente ventana conserve contexto.
         start = end - overlap
     return chunks
 
@@ -94,6 +97,7 @@ def deterministic_embedding(text: str, dimensions: int = 32) -> list[float]:
     tokens = re.findall(r"[a-záéíóúñ0-9]+", text.lower())
     vector = np.zeros(dimensions, dtype=np.float32)
     for token in tokens:
+        # El hash asigna cada token a una posición estable del vector de práctica.
         digest = hashlib.sha256(token.encode("utf-8")).digest()
         vector[int.from_bytes(digest[:2], "big") % dimensions] += 1
     if not np.any(vector):
@@ -105,6 +109,7 @@ def embed_openai(texts: list[str]) -> list[list[float]]:
     from openai import OpenAI
     if not texts:
         return []
+    # La clave se valida antes de crear el cliente para dar un error entendible.
     client = OpenAI(api_key=require_openai_key())
     response = client.embeddings.create(
         model=setting("AEM2_EMBEDDING_MODEL", "text-embedding-3-small"),
@@ -118,6 +123,7 @@ def top_k(query: Iterable[float], chunks: list[Chunk], vectors: list[list[float]
         raise ValueError("Cada chunk debe tener exactamente un embedding.")
     if not 1 <= k <= len(chunks):
         raise ValueError("k debe estar entre 1 y la cantidad de chunks.")
+    # Mantenemos texto y score juntos para no perder trazabilidad al ordenar.
     scored = [
         {"chunk": chunk.to_dict(), "score": cosine_similarity(query, vector)}
         for chunk, vector in zip(chunks, vectors)
@@ -138,4 +144,3 @@ def timed(callable_: Any, *args: Any, **kwargs: Any) -> tuple[Any, float]:
     started = time.perf_counter()
     result = callable_(*args, **kwargs)
     return result, (time.perf_counter() - started) * 1_000
-

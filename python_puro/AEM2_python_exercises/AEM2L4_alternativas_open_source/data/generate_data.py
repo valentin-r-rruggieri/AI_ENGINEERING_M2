@@ -1,5 +1,5 @@
 from pathlib import Path
 root=Path(__file__).parent
+# Este caso concentra los criterios que luego se ponderan en la matriz de decisión.
 (root/"notes.txt").write_text("Una organización evalúa embeddings administrados y modelos locales. La API administrada reduce operación y permite comenzar rápido, pero envía información a un proveedor y cobra por uso. Un modelo local mejora control, privacidad y operación offline, pero requiere hardware, actualizaciones y monitoreo. La decisión debe medir calidad semántica, costo, latencia, throughput, privacidad y soberanía. Ninguna alternativa es universal: la evidencia y el caso de uso determinan la arquitectura.",encoding="utf-8")
 print("Datos generados.")
-
