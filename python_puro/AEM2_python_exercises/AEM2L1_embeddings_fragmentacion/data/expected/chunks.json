@@ -1,0 +1,32 @@
+[
+  {
+    "chunk_id": "policies-001",
+    "content": "Las políticas de acceso indican que la contraseña se recupera mediante un enlace enviado al correo laboral. El enlace vence y soporte valida la identidad antes de desbloquear una cuenta. Las políticas de vacaciones exigen",
+    "source": "policies",
+    "start_word": 0,
+    "end_word": 35,
+    "metadata": {
+      "chunk_size_words": 35
+    }
+  },
+  {
+    "chunk_id": "policies-002",
+    "content": "desbloquear una cuenta. Las políticas de vacaciones exigen una aprobación del líder y conservan el historial. La conectividad de la oficina se informa desde soporte y las incidencias se registran con fecha, usuario y prioridad.",
+    "source": "policies",
+    "start_word": 27,
+    "end_word": 62,
+    "metadata": {
+      "chunk_size_words": 35
+    }
+  },
+  {
+    "chunk_id": "policies-003",
+    "content": "incidencias se registran con fecha, usuario y prioridad. Los documentos de seguridad describen autenticación, roles, permisos y auditoría.",
+    "source": "policies",
+    "start_word": 54,
+    "end_word": 72,
+    "metadata": {
+      "chunk_size_words": 18
+    }
+  }
+]
