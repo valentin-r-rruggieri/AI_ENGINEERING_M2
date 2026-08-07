@@ -1,0 +1,82 @@
+[
+  {
+    "chunk_id": "network_manual_1",
+    "text": "Si el equipo no puede conectarse a Internet, reinicia el router.",
+    "metadata": {
+      "source": "manual_red.md",
+      "department": "IT"
+    }
+  },
+  {
+    "chunk_id": "network_manual_2",
+    "text": "Desconecta la alimentacion durante treinta segundos y vuelve a conectarla.",
+    "metadata": {
+      "source": "manual_red.md",
+      "department": "IT"
+    }
+  },
+  {
+    "chunk_id": "network_manual_3",
+    "text": "Verifica tambien que el cable Ethernet este correctamente insertado.",
+    "metadata": {
+      "source": "manual_red.md",
+      "department": "IT"
+    }
+  },
+  {
+    "chunk_id": "network_manual_4",
+    "text": "Para redes inalambricas, elimina la red guardada y vuelve a ingresar la contrasena WiFi.",
+    "metadata": {
+      "source": "manual_red.md",
+      "department": "IT"
+    }
+  },
+  {
+    "chunk_id": "billing_faq_1",
+    "text": "Las facturas se encuentran en la seccion Pagos del panel de usuario.",
+    "metadata": {
+      "source": "facturacion.md",
+      "department": "Finance"
+    }
+  },
+  {
+    "chunk_id": "billing_faq_2",
+    "text": "Puedes descargarlas en formato PDF.",
+    "metadata": {
+      "source": "facturacion.md",
+      "department": "Finance"
+    }
+  },
+  {
+    "chunk_id": "billing_faq_3",
+    "text": "Si un cobro aparece duplicado, abre un ticket con el identificador de la operacion.",
+    "metadata": {
+      "source": "facturacion.md",
+      "department": "Finance"
+    }
+  },
+  {
+    "chunk_id": "account_security_1",
+    "text": "Para restablecer la contrasena, selecciona Olvide mi contrasena.",
+    "metadata": {
+      "source": "seguridad.md",
+      "department": "Security"
+    }
+  },
+  {
+    "chunk_id": "account_security_2",
+    "text": "Recibiras un enlace temporal en el correo asociado a la cuenta.",
+    "metadata": {
+      "source": "seguridad.md",
+      "department": "Security"
+    }
+  },
+  {
+    "chunk_id": "account_security_3",
+    "text": "El enlace vence despues del periodo indicado en el mensaje.",
+    "metadata": {
+      "source": "seguridad.md",
+      "department": "Security"
+    }
+  }
+]

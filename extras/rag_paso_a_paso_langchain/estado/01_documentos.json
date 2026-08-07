@@ -1,0 +1,42 @@
+[
+  {
+    "id": null,
+    "metadata": {
+      "source": "manual_red.md",
+      "chunk_id": "chunk_0",
+      "department": "IT"
+    },
+    "page_content": "Si el equipo no puede conectarse a Internet, reinicia el router.\nDesconecta la alimentacion durante treinta segundos y vuelve a conectarla.\nVerifica tambien que el cable Ethernet este correctamente insertado.",
+    "type": "Document"
+  },
+  {
+    "id": null,
+    "metadata": {
+      "source": "manual_red.md",
+      "chunk_id": "chunk_1",
+      "department": "IT"
+    },
+    "page_content": "Para redes inalambricas, elimina la red guardada y vuelve a ingresar la contrasena WiFi.",
+    "type": "Document"
+  },
+  {
+    "id": null,
+    "metadata": {
+      "source": "facturacion.md",
+      "chunk_id": "chunk_2",
+      "department": "Finance"
+    },
+    "page_content": "Las facturas se encuentran en la seccion Pagos del panel de usuario.\nPuedes descargarlas en formato PDF.\nSi un cobro aparece duplicado, abre un ticket con el identificador de la operacion.",
+    "type": "Document"
+  },
+  {
+    "id": null,
+    "metadata": {
+      "source": "seguridad.md",
+      "chunk_id": "chunk_3",
+      "department": "Security"
+    },
+    "page_content": "Para restablecer la contrasena, selecciona Olvide mi contrasena.\nRecibiras un enlace temporal en el correo asociado a la cuenta.\nEl enlace vence despues del periodo indicado en el mensaje.",
+    "type": "Document"
+  }
+]
