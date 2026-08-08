@@ -37,7 +37,7 @@ vectorstore = InMemoryVectorStore.from_documents(docs, embedding_model)
 
 # 3. Busqueda semantica: traemos los 3 chunks mas parecidos a la pregunta.
 # Docs: https://python.langchain.com/docs/concepts/vectorstores/#similarity-search
-top_3 = vectorstore.similarity_search_with_score(PREGUNTA, k=3)
+top_3 = vectorstore.similarity_search_with_score(PREGUNTA, k=3, score_threshold=0.6 ,filter=[{"source": "documento_1.txt"}])
 
 print("\nTop 3 chunks mas parecidos a la pregunta:")
 for doc, score in top_3:
