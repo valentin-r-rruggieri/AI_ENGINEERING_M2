@@ -1,5 +1,10 @@
 """similarity_search_with_score: entrega documentos y sus scores.
 El significado del score depende del backend; se inspecciona antes de fijar umbrales.
+# GUÍA DOCENTE
+# CUÁNDO USAR: al calibrar retrieval y revisar calidad de resultados.
+# DIFERENCIA: similarity_search devuelve documentos; con_score también muestra
+# distancia/similitud. El número no es una probabilidad universal.
+# EN CLASE: revisar top-k antes de elegir un threshold.
 """
 from langchain_core.embeddings import FakeEmbeddings
 from langchain_community.vectorstores import FAISS

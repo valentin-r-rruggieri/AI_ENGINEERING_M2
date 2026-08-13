@@ -1,5 +1,10 @@
 """FAISS: vectorstore local con persistencia.
 save_local guarda índice y metadata; al reabrir se usa el mismo embedding.
+# GUÍA DOCENTE
+# CUÁNDO USAR: búsqueda vectorial local rápida y sin servidor.
+# DIFERENCIA: FAISS es un índice local; Chroma agrega colecciones y mayor manejo
+# documental; Pinecone es un servicio cloud.
+# EN CLASE: guardar, reabrir y comprobar que el índice sobrevive al proceso.
 """
 from pathlib import Path
 from langchain_core.documents import Document

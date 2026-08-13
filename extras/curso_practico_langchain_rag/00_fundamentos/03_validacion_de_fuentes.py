@@ -5,6 +5,11 @@ Uso:
 
 Lee el FAQ en UTF-8, comprueba que no está vacío, revisa encabezados Markdown,
 detecta duplicados exactos de secciones y crea un Document trazable.
+# GUÍA DOCENTE
+# CUÁNDO USAR: antes de dividir e indexar una fuente real.
+# DIFERENCIA: cargar no significa que los datos sirvan; validar detecta archivos
+# vacíos, secciones faltantes y contenido repetido antes de pagar embeddings.
+# EN CLASE: quitar temporalmente una sección y explicar por qué debe fallar.
 """
 
 from collections import Counter

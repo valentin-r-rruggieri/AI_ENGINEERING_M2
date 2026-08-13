@@ -5,6 +5,11 @@ Uso:
 
 El script busca la raíz del curso, carga .env si existe y muestra únicamente si
 cada variable está configurada. Nunca imprime valores de API keys.
+# GUÍA DOCENTE
+# CUÁNDO USAR: antes de cualquier llamada a OpenAI, Pinecone o LangSmith.
+# DIFERENCIA: .env guarda secretos fuera del código; .env.example solo documenta
+# los nombres de variables y sí se puede compartir.
+# EN CLASE: mostrar estados configurada/ausente, nunca imprimir claves.
 """
 
 from pathlib import Path

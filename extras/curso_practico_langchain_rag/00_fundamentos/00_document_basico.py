@@ -6,6 +6,12 @@ Uso:
 Un Document es el contrato común que comparten loaders, splitters, vector stores
 y retrievers. `page_content` contiene el texto recuperable; `metadata` conserva
 información para citar, filtrar y auditar la fuente.
+# GUÍA DOCENTE
+# CUÁNDO USAR: al iniciar cualquier RAG, porque Document es el contrato común
+# entre loaders, splitters, vector stores y retrievers.
+# DIFERENCIA: page_content es el texto recuperable; metadata describe origen,
+# página, sección o permisos y permite citar/filtrar sin contaminar el texto.
+# EN CLASE: cambiar el texto y sumar metadata; observar que ambos viajan juntos.
 """
 
 from langchain_core.documents import Document

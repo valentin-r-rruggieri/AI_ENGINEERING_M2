@@ -1,5 +1,10 @@
 """RAG Chroma: base local de producto, persistencia y respuesta grounded.
 Usa data/rag_chromadb, un corpus distinto del RAG operativo de Pinecone.
+# GUÍA DOCENTE
+# CUÁNDO USAR: RAG local persistente que sí responde con un LLM.
+# FLUJO: corpus de producto -> Chroma en disco -> búsqueda -> prompt grounded.
+# DIFERENCIA: Chroma se ejecuta localmente; Pinecone usa un índice cloud existente.
+# EN CLASE: ejecutar dos veces y explicar persistencia, colección y fuentes.
 """
 import os
 from pathlib import Path

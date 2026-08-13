@@ -1,5 +1,10 @@
 """Pinecone: consulta un índice cloud existente.
 El índice debe tener la misma dimensión y métrica que el embedding elegido.
+# GUÍA DOCENTE
+# CUÁNDO USAR: corpus cloud, colaboración o escalado gestionado.
+# DIFERENCIA: el índice se crea fuera del script y debe tener dimensión/métrica
+# compatibles. Este ejemplo solo consulta estadísticas: no crea ni borra recursos.
+# EN CLASE: revisar namespace, dimensión y fuente de los vectores antes de buscar.
 """
 import os
 from pathlib import Path

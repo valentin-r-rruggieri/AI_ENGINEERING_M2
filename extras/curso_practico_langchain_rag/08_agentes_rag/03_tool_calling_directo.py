@@ -1,5 +1,10 @@
 """bind_tools permite que ChatOpenAI solicite una herramienta.
 Este paso solo muestra la solicitud: la aplicación decide cuándo y cómo ejecutarla.
+# GUÍA DOCENTE
+# CUÁNDO USAR: para inspeccionar qué tool pide el modelo antes de ejecutarla.
+# DIFERENCIA: bind_tools solo permite solicitar una llamada; la aplicación debe
+# validar permisos y ejecutar la herramienta por separado.
+# EN CLASE: nunca usar tool_calls como autorización para acciones destructivas.
 """
 import os
 from pathlib import Path

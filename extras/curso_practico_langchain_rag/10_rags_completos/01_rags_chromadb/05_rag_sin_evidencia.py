@@ -1,5 +1,11 @@
 """RAG Chroma con regla explícita para preguntas no respondibles.
 El modelo recibe la instrucción de declarar falta de evidencia en vez de inventar.
+# GUÍA DOCENTE
+# CASO: pregunta sobre precio futuro que la guía no contiene.
+# CUÁNDO USAR: siempre, como regla de seguridad y calidad de RAG.
+# DIFERENCIA: recuperar chunks no demuestra que respondan la pregunta; el prompt
+# debe obligar a reconocer la ausencia de evidencia.
+# EN CLASE: revisar la respuesta y confirmar que no rellene datos imaginados.
 """
 import os
 from pathlib import Path

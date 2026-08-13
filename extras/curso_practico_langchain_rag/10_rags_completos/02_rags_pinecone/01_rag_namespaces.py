@@ -1,5 +1,11 @@
 """RAG Pinecone con namespace.
 Un namespace separa colecciones lógicas dentro del mismo índice, por ejemplo operaciones y producto.
+# GUÍA DOCENTE
+# CASO: mismo índice para varios dominios, como producto y operaciones.
+# CUÁNDO USAR: separar conjuntos lógicos sin crear un índice por cada uno.
+# DIFERENCIA: namespace organiza/aisla vectores; metadata filtra atributos dentro
+# de ese conjunto. Elegir namespace incorrecto devuelve contexto equivocado.
+# EN CLASE: comparar nombres de namespace y discutir aislamiento de datos.
 """
 import os
 from pathlib import Path

@@ -1,5 +1,10 @@
 """MessagesPlaceholder inserta historial como mensajes, no como texto plano.
 Limita o resume historial para no consumir todo el contexto del modelo.
+# GUÍA DOCENTE
+# CUÁNDO USAR: conversaciones con preguntas de seguimiento.
+# DIFERENCIA: historial ayuda a interpretar pronombres; no reemplaza retrieval
+# ni debe tratarse como evidencia de la base documental.
+# EN CLASE: quitar history y comparar si la pregunta sigue teniendo contexto.
 """
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder

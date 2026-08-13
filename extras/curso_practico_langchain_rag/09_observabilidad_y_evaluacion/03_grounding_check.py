@@ -1,5 +1,10 @@
 """Grounding significa que la respuesta se apoya en contexto recuperado.
 El control básico es mostrar respuesta y fuentes juntas para revisión humana.
+# GUÍA DOCENTE
+# CUÁNDO USAR: revisión de si una respuesta está respaldada por sus fuentes.
+# DIFERENCIA: grounding evalúa fidelidad al contexto; relevancia evalúa si el
+# contexto correcto fue recuperado. Son fallos distintos.
+# EN CLASE: comparar una respuesta correcta sin cita y una inventada con cita.
 """
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate

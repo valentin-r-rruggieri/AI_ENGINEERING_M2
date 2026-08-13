@@ -1,5 +1,10 @@
 """DirectoryLoader: carga todos los archivos de una carpeta.
 Elegir glob evita indexar formatos que no corresponden al loader elegido.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando el corpus tiene muchos archivos del mismo formato.
+# DIFERENCIA: glob selecciona qué cargar; loader_cls define cómo interpretar cada
+# archivo. No usarlo sin glob en una carpeta con formatos mezclados.
+# EN CLASE: cambiar **/*.txt y discutir qué archivos entrarían al índice.
 """
 from pathlib import Path
 from langchain_community.document_loaders import DirectoryLoader, TextLoader

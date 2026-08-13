@@ -1,5 +1,10 @@
 """Un experimento registra configuración y resultado juntos.
 Cambiar chunk_size, embedding y k a la vez impide saber qué produjo una mejora.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando se ajusta una configuración de RAG repetidamente.
+# DIFERENCIA: un resultado aislado no permite aprender; registrar modelo,
+# chunk_size, k y métrica vuelve comparables los experimentos.
+# EN CLASE: cambiar una variable por vez y conservar el resto fijo.
 """
 from langchain_core.documents import Document
 

@@ -1,5 +1,10 @@
 """StructuredTool expone una herramienta de varios parámetros.
 La validación de tipos reduce llamadas ambiguas antes de ejecutar acciones reales.
+# GUÍA DOCENTE
+# CUÁNDO USAR: herramientas con varios parámetros o validaciones.
+# DIFERENCIA: @tool infiere parámetros simples; StructuredTool permite declarar
+# un esquema Pydantic explícito con rangos, descripciones y valores por defecto.
+# EN CLASE: enviar un límite inválido y explicar la validación.
 """
 from pydantic import BaseModel, Field
 from langchain_core.tools import StructuredTool

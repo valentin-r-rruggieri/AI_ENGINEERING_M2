@@ -1,5 +1,11 @@
 """RAG Chroma con filtros de metadata.
 Los filtros limitan recuperación por categoría antes de construir el contexto.
+# GUÍA DOCENTE
+# CASO: portal que separa facturación, planes y soporte.
+# CUÁNDO USAR: cuando la pregunta ya conoce un ámbito o existe una restricción.
+# DIFERENCIA: vector search decide relevancia; metadata filter decide qué documentos
+# son admisibles. Ambos se necesitan en sistemas multiárea.
+# EN CLASE: quitar el filtro y mostrar que podrían aparecer temas no deseados.
 """
 import os
 from pathlib import Path

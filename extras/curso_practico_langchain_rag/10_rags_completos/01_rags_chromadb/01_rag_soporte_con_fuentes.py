@@ -1,5 +1,11 @@
 """RAG Chroma con fuentes visibles.
 Cada fragmento recuperado conserva metadata de origen para poder citarlo.
+# GUÍA DOCENTE
+# CASO: mesa de ayuda donde se necesita mostrar de qué fragmento sale la respuesta.
+# CUÁNDO USAR: soporte, compliance o capacitación con revisión humana.
+# DIFERENCIA: recupera igual que FAQ básica, pero hace visible source y posición
+# para permitir verificar la afirmación.
+# EN CLASE: explicar que una cita útil debe apuntar a evidencia relevante.
 """
 import os
 from pathlib import Path

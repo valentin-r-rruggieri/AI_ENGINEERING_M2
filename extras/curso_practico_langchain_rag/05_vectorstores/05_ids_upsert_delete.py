@@ -1,5 +1,10 @@
 """IDs estables permiten actualizar y eliminar documentos concretos.
 Cada backend tiene operaciones propias; aquí InMemoryVectorStore ilustra add y delete.
+# GUÍA DOCENTE
+# CUÁNDO USAR: sincronización incremental de un corpus cambiante.
+# DIFERENCIA: IDs estables permiten reemplazar/eliminar un documento específico;
+# sin ID estable una reindexación puede crear duplicados.
+# EN CLASE: relacionar el ID con fuente, versión y chunk, no con un contador frágil.
 """
 from langchain_core.documents import Document
 from langchain_core.embeddings import FakeEmbeddings

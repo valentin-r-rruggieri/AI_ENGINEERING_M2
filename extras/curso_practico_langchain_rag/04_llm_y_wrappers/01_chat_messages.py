@@ -1,5 +1,10 @@
 """Mensajes: System contiene reglas; Human contiene la pregunta.
 Separar roles permite inspeccionar instrucciones y datos antes de llamar al modelo.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando hay reglas permanentes y una pregunta de usuario.
+# DIFERENCIA: System define comportamiento; Human trae solicitud o contexto.
+# No mezclar contenido recuperado con instrucciones de sistema.
+# EN CLASE: imprimir mensajes y preguntar qué rol corresponde a cada texto.
 """
 import os
 from pathlib import Path

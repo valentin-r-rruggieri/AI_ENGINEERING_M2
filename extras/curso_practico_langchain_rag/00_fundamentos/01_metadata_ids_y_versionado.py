@@ -6,6 +6,11 @@ Uso:
 Un ID determinístico permite volver a indexar sin duplicar lógicamente el mismo
 chunk. El hash se calcula sobre los campos que definen la identidad del contenido.
 Cambiar el texto o la versión cambia el ID y obliga a tratarlo como otra revisión.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando el corpus se actualiza y se necesita evitar duplicados.
+# DIFERENCIA: metadata explica el documento; un ID estable identifica la misma
+# unidad entre indexaciones. Cambiar contenido o versión debe producir un ID nuevo.
+# EN CLASE: mostrar que el hash no es semántico: un cambio pequeño cambia el ID.
 """
 
 from hashlib import sha256

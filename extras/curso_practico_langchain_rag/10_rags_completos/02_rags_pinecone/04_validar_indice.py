@@ -1,5 +1,10 @@
 """Validación de un índice Pinecone antes de consultar.
 La dimensión configurada debe coincidir con la dimensión del embedding de consulta.
+# GUÍA DOCENTE
+# CUÁNDO USAR: antes de insertar o consultar vectores en un índice cloud.
+# DIFERENCIA: dimensión es una restricción técnica; namespace es una separación
+# lógica; métrica es la forma de comparar vectores. No son lo mismo.
+# EN CLASE: cambiar el embedding y ver por qué puede dejar de ser compatible.
 """
 import os
 from pathlib import Path

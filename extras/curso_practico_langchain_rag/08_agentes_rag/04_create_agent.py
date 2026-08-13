@@ -1,5 +1,10 @@
 """create_agent coordina modelo y herramientas.
 Un agente agrega decisión y costo: para RAG simple se prefiere una cadena lineal.
+# GUÍA DOCENTE
+# CUÁNDO USAR: tareas con decisión real entre varias herramientas.
+# DIFERENCIA: un agente decide pasos; un RAG lineal es más barato, predecible y
+# suele bastar para preguntas sobre documentos.
+# EN CLASE: preguntar primero '¿realmente necesitamos un agente aquí?'.
 """
 import os
 from pathlib import Path

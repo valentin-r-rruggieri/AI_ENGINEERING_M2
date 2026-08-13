@@ -1,5 +1,11 @@
 """RAG Chroma para preguntas frecuentes de producto.
 Pipeline: TextLoader → RecursiveCharacterTextSplitter → OpenAIEmbeddings → Chroma → ChatOpenAI.
+# GUÍA DOCENTE
+# CASO: asistente interno para dudas de planes, facturación y soporte de producto.
+# CUÁNDO USAR: corpus local pequeño/mediano que debe persistir en la computadora.
+# DIFERENCIA: este ejemplo cubre pregunta factual; los siguientes agregan fuentes,
+# filtros, diversidad, historial y control de evidencia.
+# EN CLASE: seguir el pipeline desde archivo hasta respuesta final.
 """
 import os
 from pathlib import Path

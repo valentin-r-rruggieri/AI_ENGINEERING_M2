@@ -1,5 +1,10 @@
 """RAG con fuentes: cada chunk conserva origen e identificador.
 Las citas hacen que la respuesta sea comprobable por quien la recibe.
+# GUÍA DOCENTE
+# CUÁNDO USAR: respuestas que deben poder auditarse o citar documentación.
+# DIFERENCIA: una respuesta sin fuente puede parecer correcta sin ser verificable;
+# la fuente conecta cada afirmación con un chunk recuperado.
+# EN CLASE: pedir que cada respuesta tenga una cita y revisar si realmente la apoya.
 """
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate

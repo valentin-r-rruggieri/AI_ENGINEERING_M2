@@ -1,5 +1,10 @@
 """LM Studio: usa ChatOpenAI contra un servidor local compatible.
 Primero inicia el servidor local de LM Studio y carga un modelo de chat.
+# GUÍA DOCENTE
+# CUÁNDO USAR: demostraciones locales, privacidad o trabajo sin proveedor cloud.
+# DIFERENCIA: LM Studio ejecuta un servidor en la propia máquina; OpenAI usa cloud.
+# Un modelo local consume RAM/VRAM y su calidad depende del modelo descargado.
+# EN CLASE: iniciar el server antes y comparar base_url local contra cloud.
 """
 import os
 from langchain_openai import ChatOpenAI

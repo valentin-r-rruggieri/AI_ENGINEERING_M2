@@ -1,5 +1,11 @@
 """RAG Pinecone para alertas de operaciones cloud.
 Consulta un índice existente cargado previamente con data/rag_pinecone.
+# GUÍA DOCENTE
+# CASO: asistente para procedimientos de alertas de una operación cloud.
+# CUÁNDO USAR: documentación ya indexada en un servicio cloud compartido.
+# DIFERENCIA: consulta Pinecone en un namespace; el código no crea ni destruye
+# infraestructura. El corpus debe haberse cargado previamente.
+# EN CLASE: partir de la alerta, revisar chunks y luego la respuesta grounded.
 """
 import os
 from pathlib import Path

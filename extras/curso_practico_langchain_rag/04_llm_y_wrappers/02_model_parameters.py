@@ -1,5 +1,10 @@
 """Parámetros de ChatOpenAI: temperatura, límite de salida y timeout.
 Se ajustan según variación aceptada, presupuesto y latencia de la aplicación.
+# GUÍA DOCENTE
+# CUÁNDO USAR: al ajustar calidad, costo y tiempo de respuesta de una app.
+# DIFERENCIA: temperature controla variación; max_tokens limita la salida;
+# timeout define cuánto esperar antes de fallar.
+# EN CLASE: cambiar un parámetro por vez para no confundir sus efectos.
 """
 import os
 from pathlib import Path

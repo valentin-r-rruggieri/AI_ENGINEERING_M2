@@ -1,5 +1,10 @@
 """Chroma: colección vectorial local persistente.
 Guarda documentos, embeddings y metadata en persist_directory.
+# GUÍA DOCENTE
+# CUÁNDO USAR: RAG local persistente con documentos y metadata.
+# DIFERENCIA: InMemory es efímero; Chroma persiste una colección en disco;
+# Pinecone delega la infraestructura en cloud.
+# EN CLASE: explicar collection_name y persist_directory antes de ejecutar.
 """
 from pathlib import Path
 from langchain_core.documents import Document

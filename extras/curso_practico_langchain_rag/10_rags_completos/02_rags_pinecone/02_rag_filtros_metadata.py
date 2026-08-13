@@ -1,5 +1,11 @@
 """RAG Pinecone filtrado por metadata.
 El filtro se aplica antes de devolver chunks y sirve para tipo de documento, región o permisos.
+# GUÍA DOCENTE
+# CASO: buscar solo procedimientos clasificados como incidente.
+# CUÁNDO USAR: recuperación con tipo, región, producto o permisos conocidos.
+# DIFERENCIA: namespace separa espacios grandes; filter restringe documentos
+# concretos dentro del namespace elegido.
+# EN CLASE: explicar que metadata debe cargarse junto a cada vector.
 """
 import os
 from pathlib import Path

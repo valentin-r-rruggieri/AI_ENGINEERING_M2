@@ -1,5 +1,11 @@
 """RAG Pinecone con regla de no inventar.
 Incluso si retrieval devuelve chunks, el prompt exige responder sin evidencia cuando no responden la pregunta.
+# GUÍA DOCENTE
+# CASO: se pregunta precio comercial a un índice que solo conoce operaciones.
+# CUÁNDO USAR: todo RAG de dominio limitado debe contemplar esta salida.
+# DIFERENCIA: Pinecone puede devolver similitudes aun cuando no haya respuesta;
+# la política grounded decide no convertir esos chunks en una invención.
+# EN CLASE: relacionar no-evidencia con threshold y evaluación humana.
 """
 import os
 from pathlib import Path

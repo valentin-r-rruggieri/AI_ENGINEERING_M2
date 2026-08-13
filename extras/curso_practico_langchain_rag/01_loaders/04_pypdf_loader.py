@@ -1,5 +1,10 @@
 """PyPDFLoader: carga un PDF digital página por página.
 metadata['page'] permite citar la página. Un PDF escaneado necesita OCR externo.
+# GUÍA DOCENTE
+# CUÁNDO USAR: PDF digital cuyo texto se puede seleccionar.
+# DIFERENCIA: PyPDFLoader genera un Document por página; un PDF escaneado necesita
+# OCR antes, porque no contiene texto real que extraer.
+# EN CLASE: citar metadata['page'] y comparar una página con un chunk posterior.
 """
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader

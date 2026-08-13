@@ -1,5 +1,10 @@
 """ChatPromptTemplate crea mensajes con roles.
 System fija la regla de grounding y Human transporta contexto y pregunta.
+# GUÍA DOCENTE
+# CUÁNDO USAR: RAG con reglas de sistema, contexto y pregunta de usuario.
+# DIFERENCIA: separar roles protege claridad: contexto es dato, System es regla.
+# No confiar en instrucciones que aparezcan dentro de documentos recuperados.
+# EN CLASE: señalar qué parte debe decir 'no tengo evidencia'.
 """
 from langchain_core.prompts import ChatPromptTemplate
 

@@ -1,5 +1,10 @@
 """Reindexación: un vectorstore se recrea al cambiar embedding o contenido.
 Metadata conserva la versión usada para identificar índices desactualizados.
+# GUÍA DOCENTE
+# CUÁNDO USAR: mantenimiento de un RAG que cambia documentos o modelos.
+# DIFERENCIA: actualizar metadata no recalcula un vector; al cambiar el texto,
+# modelo o dimensión se debe crear una indexación compatible.
+# EN CLASE: comparar versionado de contenido con versionado de embeddings.
 """
 from langchain_core.documents import Document
 from langchain_core.embeddings import FakeEmbeddings

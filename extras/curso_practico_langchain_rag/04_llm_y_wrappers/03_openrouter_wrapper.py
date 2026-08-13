@@ -1,5 +1,10 @@
 """OpenRouter: usa ChatOpenAI con base_url compatible.
 Cambian URL, clave y nombre de modelo; el patrón de mensajes sigue igual.
+# GUÍA DOCENTE
+# CUÁNDO USAR: para acceder a modelos publicados mediante una API compatible.
+# DIFERENCIA: el patrón LangChain es el mismo que OpenAI; cambian base_url,
+# API key y nombre de modelo. Disponibilidad y precio dependen del proveedor.
+# EN CLASE: comparar configuración, no claves ni resultados de modelos privados.
 """
 import os
 from langchain_openai import ChatOpenAI

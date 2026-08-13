@@ -1,5 +1,10 @@
 """RAG Chroma con MMR.
 MMR reduce fragmentos repetidos: fetch_k busca candidatos y k conserva resultados diversos.
+# GUÍA DOCENTE
+# CASO: consulta amplia sobre un plan que tiene información distribuida.
+# CUÁNDO USAR: cuando los primeros resultados son redundantes y falta cobertura.
+# DIFERENCIA: similarity prioriza solo cercanía; MMR agrega diversidad entre chunks.
+# EN CLASE: variar lambda_mult y describir el balance relevancia/diversidad.
 """
 import os
 from pathlib import Path

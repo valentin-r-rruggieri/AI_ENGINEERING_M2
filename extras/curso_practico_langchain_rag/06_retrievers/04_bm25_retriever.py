@@ -1,5 +1,10 @@
 """BM25Retriever recupera por términos exactos, sin embeddings.
 Es útil para códigos, nombres e identificadores; se combina con vectores en búsqueda híbrida.
+# GUÍA DOCENTE
+# CUÁNDO USAR: códigos de error, IDs, siglas y palabras exactas.
+# DIFERENCIA: BM25 usa términos; embeddings usan significado. Una búsqueda
+# híbrida combina ambas señales cuando el dominio mezcla texto y códigos.
+# EN CLASE: buscar E401 y comparar con una pregunta semántica de soporte.
 """
 from langchain_core.documents import Document
 

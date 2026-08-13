@@ -1,5 +1,11 @@
 """RAG Chroma con historial de chat.
 El historial aclara la consulta; los documentos recuperados siguen siendo la única evidencia.
+# GUÍA DOCENTE
+# CASO: chatbot de producto con preguntas encadenadas.
+# CUÁNDO USAR: el usuario refiere una conversación previa sin repetir el sujeto.
+# DIFERENCIA: historial da contexto conversacional; retrieval entrega evidencia.
+# No indexar el historial como si fuera documentación oficial.
+# EN CLASE: identificar qué información llega por history y cuál por Chroma.
 """
 import os
 from pathlib import Path

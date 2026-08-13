@@ -1,5 +1,10 @@
 """OpenAIEmbeddings: genera vectores semánticos reales.
 Documentos y consultas deben usar el mismo modelo y la misma dimensión.
+# GUÍA DOCENTE
+# CUÁNDO USAR: indexación y consultas semánticas reales con OpenAI.
+# DIFERENCIA: embed_documents procesa corpus; embed_query procesa la pregunta.
+# Ambos deben usar modelo y dimensión compatibles con el mismo vector store.
+# EN CLASE: mostrar longitud del vector, no sus números como si fueran interpretables.
 """
 import os
 from pathlib import Path

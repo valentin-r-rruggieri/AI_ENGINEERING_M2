@@ -9,6 +9,11 @@ Flujo ejecutado:
 
 FakeEmbeddings permite validar el contrato técnico sin gastar API. No mide
 relevancia semántica real: ese punto se cubre con OpenAIEmbeddings más adelante.
+# GUÍA DOCENTE
+# CUÁNDO USAR: para explicar el pipeline offline de RAG completo.
+# FLUJO: loader -> chunks -> metadata/IDs -> embeddings -> FAISS persistente.
+# DIFERENCIA: indexar prepara conocimiento; todavía no responde preguntas.
+# EN CLASE: variar chunk_size y comparar cantidad/tamaño de chunks.
 """
 
 from datetime import date

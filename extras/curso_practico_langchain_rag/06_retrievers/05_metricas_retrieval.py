@@ -1,5 +1,10 @@
 """La evaluación compara chunks recuperados con evidencia esperada.
 Hit@K comprueba presencia y MRR premia que la evidencia aparezca al principio.
+# GUÍA DOCENTE
+# CUÁNDO USAR: antes de modificar prompt o modelo para mejorar un RAG.
+# DIFERENCIA: Hit@K mide si hay evidencia; MRR mide qué tan arriba aparece.
+# Ninguna de las dos evalúa redacción: solo calidad de recuperación.
+# EN CLASE: mover la evidencia de posición y recalcular MRR.
 """
 from langchain_core.documents import Document
 

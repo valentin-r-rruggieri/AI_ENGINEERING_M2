@@ -1,5 +1,10 @@
 """with_structured_output: solicita una respuesta validada contra un esquema.
 El esquema da forma a la salida; no prueba que la información sea verdadera.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando la aplicación necesita campos, no texto libre.
+# DIFERENCIA: con_structured_output valida forma contra Pydantic; no garantiza que
+# el contenido sea cierto. Para RAG todavía se debe pasar contexto grounded.
+# EN CLASE: agregar un campo obligatorio y observar la estructura resultante.
 """
 import os
 from pathlib import Path

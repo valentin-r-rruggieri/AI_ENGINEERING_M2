@@ -1,5 +1,10 @@
 """ChatOpenAI: llama un modelo conversacional.
 temperature=0 reduce la variación y es una configuración inicial útil para RAG.
+# GUÍA DOCENTE
+# CUÁNDO USAR: generar una respuesta una vez que ya existe contexto confiable.
+# DIFERENCIA: ChatOpenAI genera lenguaje; OpenAIEmbeddings representa significado.
+# En RAG, el modelo no busca documentos: recibe el contexto que retrieval encontró.
+# EN CLASE: variar temperature entre 0 y 1 y comparar consistencia.
 """
 import os
 from pathlib import Path

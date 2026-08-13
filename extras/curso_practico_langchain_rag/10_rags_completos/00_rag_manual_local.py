@@ -1,5 +1,11 @@
 """RAG local mínimo: loader → splitter → embeddings → vectorstore → retrieval.
 Primero se inspecciona el contexto recuperado; un LLM solo se agrega después.
+# GUÍA DOCENTE
+# CUÁNDO USAR: primera demostración RAG sin API ni generación.
+# FLUJO: documento -> splitter -> FakeEmbeddings -> FAISS -> chunks recuperados.
+# DIFERENCIA: demuestra retrieval; un RAG con LLM agrega una respuesta sobre ese
+# contexto. Primero validar evidencia evita culpar al modelo por un mal retrieval.
+# EN CLASE: leer chunks recuperados antes de hablar de prompts.
 """
 from pathlib import Path
 from langchain_community.document_loaders import TextLoader

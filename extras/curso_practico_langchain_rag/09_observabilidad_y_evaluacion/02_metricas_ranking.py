@@ -1,5 +1,10 @@
 """Hit@K comprueba presencia de evidencia; MRR penaliza evidencia tardía.
 Se calculan para el mismo conjunto de preguntas al comparar configuraciones.
+# GUÍA DOCENTE
+# CUÁNDO USAR: al comparar embeddings, chunking o estrategia de retrieval.
+# DIFERENCIA: Hit@K pregunta si recuperó; MRR considera posición. Una respuesta
+# bien escrita puede seguir siendo mala si recuperó evidencia equivocada.
+# EN CLASE: usar la misma pregunta para dos rankings y medir ambos.
 """
 from langchain_core.documents import Document
 

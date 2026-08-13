@@ -1,5 +1,10 @@
 """MMR combina relevancia con diversidad.
 fetch_k reúne candidatos; k conserva resultados; lambda_mult regula diversidad.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando top-k devuelve chunks casi idénticos.
+# DIFERENCIA: similarity maximiza cercanía; MMR combina cercanía y diversidad.
+# fetch_k reúne candidatos, k devuelve resultados y lambda_mult ajusta balance.
+# EN CLASE: comparar las dos listas para la misma pregunta.
 """
 from langchain_core.embeddings import FakeEmbeddings
 from langchain_community.vectorstores import FAISS

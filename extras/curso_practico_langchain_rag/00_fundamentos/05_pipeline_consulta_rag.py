@@ -9,6 +9,12 @@ Uso con OpenAI, solo si OPENAI_API_KEY existe en .env:
 El índice local usa FakeEmbeddings para que el ejemplo siempre pueda ejecutarse.
 Como esos vectores no tienen semántica real, el script complementa retrieval con una
 selección léxica determinista. OpenAI opcional recibe únicamente el contexto elegido.
+# GUÍA DOCENTE
+# CUÁNDO USAR: para explicar el pipeline online de RAG.
+# FLUJO: pregunta -> retrieval -> contexto con fuentes -> prompt -> respuesta.
+# DIFERENCIA: sin --use-openai enseña retrieval y prompt sin costo; con OpenAI
+# agrega generación grounded.
+# EN CLASE: preguntar algo sin evidencia y verificar que no invente.
 """
 
 import argparse

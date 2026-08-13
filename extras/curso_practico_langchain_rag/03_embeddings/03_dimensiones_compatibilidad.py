@@ -1,5 +1,10 @@
 """Dimensión de embeddings: cada modelo produce una cantidad fija de números.
 Un índice solo acepta la dimensión para la que fue creado; cambiar modelo exige reindexar.
+# GUÍA DOCENTE
+# CUÁNDO USAR: al cambiar de modelo de embeddings o configurar un índice cloud.
+# DIFERENCIA: dimensión es cantidad de números; similitud es la regla para
+# compararlos. Un índice no puede mezclar dimensiones distintas.
+# EN CLASE: explicar que cambiar modelo obliga a reindexar, no solo a consultar.
 """
 from langchain_core.embeddings import FakeEmbeddings
 

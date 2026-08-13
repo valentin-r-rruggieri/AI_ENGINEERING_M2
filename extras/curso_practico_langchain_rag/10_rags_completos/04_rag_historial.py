@@ -1,5 +1,10 @@
 """RAG con historial: el historial aclara la nueva pregunta, no es evidencia.
 MessagesPlaceholder conserva roles para que el modelo interprete el seguimiento.
+# GUÍA DOCENTE
+# CUÁNDO USAR: chat con seguimientos como '¿y cuántos usuarios permite?'.
+# DIFERENCIA: historial resuelve referencias conversacionales; el corpus sigue
+# siendo la fuente de verdad y no se reemplaza por mensajes previos.
+# EN CLASE: comparar una pregunta con y sin historial.
 """
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder

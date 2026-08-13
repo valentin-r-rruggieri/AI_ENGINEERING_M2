@@ -1,5 +1,10 @@
 """Debugging RAG: inspecciona cada artefacto antes de cambiar el siguiente paso.
 Document, chunks, retrieval, prompt y respuesta son evidencias separadas.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando la respuesta final parece incorrecta.
+# DIFERENCIA: el error puede estar en carga, chunking, retrieval, prompt o LLM;
+# cambiar el prompt no corrige un documento que nunca fue recuperado.
+# EN CLASE: inspeccionar cada artefacto antes de modificar la siguiente etapa.
 """
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter

@@ -1,5 +1,10 @@
 """CacheBackedEmbeddings: guarda embeddings ya calculados.
 Reduce costo y latencia al repetir el mismo texto con el mismo modelo.
+# GUÍA DOCENTE
+# CUÁNDO USAR: desarrollo o reindexaciones donde se repite el mismo contenido.
+# DIFERENCIA: cache guarda vectores ya calculados; vector store guarda vectores
+# para recuperar documentos. La cache se invalida al cambiar modelo o versión.
+# EN CLASE: ejecutar dos veces y explicar por qué la segunda evita trabajo repetido.
 """
 from pathlib import Path
 from langchain_core.embeddings import FakeEmbeddings

@@ -1,5 +1,10 @@
 """RecursiveCharacterTextSplitter: opción inicial para prosa.
 Prueba párrafos, líneas, palabras y caracteres para respetar chunk_size.
+# GUÍA DOCENTE
+# CUÁNDO USAR: primera opción para texto general, FAQs y documentación plana.
+# DIFERENCIA: intenta párrafo, línea, espacio y carácter para respetar chunk_size;
+# no entiende tokens ni estructura semántica profunda.
+# EN CLASE: comparar overlap 0 vs 50 y buscar información partida entre chunks.
 """
 from pathlib import Path
 from langchain_community.document_loaders import TextLoader

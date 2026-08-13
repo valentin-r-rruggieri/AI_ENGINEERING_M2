@@ -1,5 +1,10 @@
 """TokenTextSplitter: limita por tokens, no por caracteres.
 Se usa cuando el presupuesto de contexto o costo depende de tokens.
+# GUÍA DOCENTE
+# CUÁNDO USAR: cuando se controla contexto, costo o límite exacto del modelo.
+# DIFERENCIA: caracteres visibles no equivalen a tokens; este splitter mide lo
+# mismo que el modelo, aunque puede cortar una oración menos elegantemente.
+# EN CLASE: comparar un mismo texto con splitter por caracteres y por tokens.
 """
 from langchain_text_splitters import TokenTextSplitter
 

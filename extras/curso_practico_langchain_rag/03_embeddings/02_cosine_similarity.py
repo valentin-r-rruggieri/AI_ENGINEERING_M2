@@ -1,5 +1,10 @@
 """Embeddings con InMemoryVectorStore.
 El vector store aplica similitud entre embedding de pregunta y documentos.
+# GUÍA DOCENTE
+# CUÁNDO USAR: para demostrar que un vector store encuentra cercanía vectorial.
+# DIFERENCIA: el usuario pregunta texto, LangChain lo embeddea y compara vectores;
+# no es una búsqueda literal como BM25.
+# EN CLASE: cambiar la pregunta y discutir por qué FakeEmbeddings no da calidad real.
 """
 from langchain_core.embeddings import FakeEmbeddings
 from langchain_core.vectorstores import InMemoryVectorStore

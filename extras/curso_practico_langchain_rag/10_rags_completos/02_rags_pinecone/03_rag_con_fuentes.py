@@ -1,5 +1,11 @@
 """RAG Pinecone que presenta fuentes junto con la respuesta.
 La metadata source y chunk_id debe cargarse al hacer upsert de los documentos.
+# GUÍA DOCENTE
+# CASO: respuestas operativas que exigen manual y sección de respaldo.
+# CUÁNDO USAR: runbooks, auditoría y tareas con riesgo operativo.
+# DIFERENCIA: Pinecone recupera contenido/metadata; el formatter convierte ambos
+# en contexto legible y el prompt exige citar la fuente.
+# EN CLASE: comprobar que source exista en el índice antes de prometer citas.
 """
 import os
 from pathlib import Path
