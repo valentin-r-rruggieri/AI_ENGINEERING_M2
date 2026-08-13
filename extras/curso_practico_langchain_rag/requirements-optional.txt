@@ -1,0 +1,22 @@
+# Dependencias de notebooks de referencia.
+langchain-google-genai
+langchain-huggingface
+langchain-ollama
+langchain-experimental
+langchain-qdrant
+langchain-weaviate
+langchain-postgres
+langchain-milvus
+lancedb
+sentence-transformers
+tiktoken
+spacy
+nltk
+pypdf
+pymupdf
+pdfplumber
+unstructured[pdf,docx,pptx,xlsx]
+docx2txt
+beautifulsoup4
+lxml
+rank-bm25

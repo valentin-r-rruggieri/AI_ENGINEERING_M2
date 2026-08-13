@@ -1,0 +1,17 @@
+{
+  "formato": "scripts Python autocontenidos",
+  "regla": "seis scripts por familia",
+  "familias": [
+    "00_fundamentos",
+    "01_loaders",
+    "02_splitters",
+    "03_embeddings",
+    "04_llm_y_wrappers",
+    "05_vectorstores",
+    "06_retrievers",
+    "07_prompts_y_lcel",
+    "08_agentes_rag",
+    "09_observabilidad_y_evaluacion",
+    "10_rags_completos"
+  ]
+}

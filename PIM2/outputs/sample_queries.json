@@ -1,0 +1,44 @@
+[
+  {
+    "user_question": "¿Cómo restablezco mi contraseña?",
+    "system_answer": "Desde el inicio de sesión elegí «Olvidé mi contraseña». PeopleFlow envía un enlace de un solo uso al correo laboral registrado; vence a los treinta minutos. Si no llega, soporte debe verificar la cuenta, el correo y que no esté bloqueada.",
+    "chunks_related": [
+      {
+        "chunk_id": 1,
+        "content": "Para restablecer una contraseña, la persona debe elegir Olvidé mi contraseña en el inicio de sesión. PeopleFlow envía un enlace de un solo uso al correo laboral registrado."
+      },
+      {
+        "chunk_id": 2,
+        "content": "El enlace vence a los treinta minutos y no puede reutilizarse. Si no llega el correo, soporte debe verificar primero que la cuenta exista, que el correo sea correcto y que no esté bloqueada."
+      }
+    ]
+  },
+  {
+    "user_question": "¿Quién aprueba una solicitud de vacaciones?",
+    "system_answer": "La solicitud llega al líder directo y queda aprobada solo después de su confirmación. Si el líder está ausente, la tarea se asigna al aprobador delegado.",
+    "chunks_related": [
+      {
+        "chunk_id": 7,
+        "content": "Las solicitudes de vacaciones se realizan desde Mi tiempo, Nueva solicitud. El sistema calcula el saldo disponible según país, antigüedad y política vigente."
+      },
+      {
+        "chunk_id": 8,
+        "content": "La solicitud llega al líder directo y queda aprobada solo después de su confirmación. Si el líder está ausente, el aprobador delegado recibe la tarea."
+      }
+    ]
+  },
+  {
+    "user_question": "¿Se pueden importar empleados desde CSV?",
+    "system_answer": "Sí. Un administrador puede importar empleados desde Configuración, Importaciones, usando la plantilla CSV oficial. Antes de confirmar, debe corregir las filas marcadas con error y descargar el reporte si corresponde.",
+    "chunks_related": [
+      {
+        "chunk_id": 11,
+        "content": "La importación masiva de empleados se realiza desde Configuración, Importaciones. Se debe descargar la plantilla CSV oficial y completar los campos obligatorios."
+      },
+      {
+        "chunk_id": 12,
+        "content": "El sistema valida formato, duplicados y campos requeridos antes de confirmar. Las filas con errores se deben corregir y volver a cargar."
+      }
+    ]
+  }
+]

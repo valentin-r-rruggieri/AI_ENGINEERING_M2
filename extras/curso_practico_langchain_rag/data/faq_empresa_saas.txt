@@ -1,0 +1,25 @@
+# Manual interno — NubeHR
+
+## Acceso y contraseñas
+Si olvidaste tu contraseña, ingresá a la pantalla de inicio de sesión y seleccioná “Olvidé mi contraseña”. Recibirás un correo con un enlace de un solo uso que vence en 30 minutos. Si no llega, revisá correo no deseado y luego contactá a soporte interno. Nunca compartas el enlace ni la contraseña con otra persona.
+
+## Licencias
+Las vacaciones se solicitan desde Mi perfil > Ausencias > Nueva solicitud. Elegí fecha inicial, fecha final y el tipo “Vacaciones”. La persona responsable recibe una notificación y debe aprobar la solicitud. Las licencias médicas requieren adjuntar el certificado dentro de las 48 horas hábiles desde el inicio de la ausencia.
+
+## Viáticos nacionales
+Los viajes dentro del país requieren aprobación previa de la jefatura. Para rendir gastos, cargá los comprobantes en Gastos > Nueva rendición dentro de los diez días corridos posteriores al regreso. Se reintegran transporte, alojamiento y comidas con comprobante, según el presupuesto aprobado.
+
+## Seguridad y privacidad
+Los datos de candidatos y empleados son confidenciales. No descargues planillas de personal en dispositivos públicos, no envíes archivos con datos sensibles por mensajería personal y bloqueá la pantalla al alejarte. Un incidente de seguridad debe reportarse a seguridad@nubehr.example usando el asunto “Incidente de seguridad”.
+
+## Soporte
+El horario de atención es de lunes a viernes de 9:00 a 18:00, hora de Argentina. Las consultas funcionales se registran desde el portal de soporte. Los incidentes críticos que impidan operar nómina tienen prioridad alta.
+
+## Política de trabajo remoto
+El esquema híbrido permite hasta dos días remotos por semana, coordinados con el equipo. Para trabajar fuera del país se requiere aprobación de Recursos Humanos y del área de Seguridad antes del viaje.
+
+## Nómina
+El recibo de sueldo se publica el último día hábil de cada mes en Mi perfil > Documentos. Las correcciones de datos bancarios deben solicitarse antes del día 20 para impactar en la liquidación del mismo mes.
+
+## Capacitación
+Cada persona cuenta con un presupuesto anual de capacitación. Antes de inscribirse, debe cargar la propuesta y el costo estimado en el portal de aprendizaje para aprobación de su responsable.
