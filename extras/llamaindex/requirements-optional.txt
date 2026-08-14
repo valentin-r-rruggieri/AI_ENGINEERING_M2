@@ -1,0 +1,10 @@
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
+llama-index-vector-stores-chroma
+llama-index-vector-stores-faiss
+sentence-transformers
+chromadb
+faiss-cpu
+transformers
+torch
+accelerate

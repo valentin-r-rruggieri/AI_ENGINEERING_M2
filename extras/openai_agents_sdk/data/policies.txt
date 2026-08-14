@@ -1,0 +1,4 @@
+VACACIONES: 15 dias por ano con cinco dias de anticipacion.
+REMOTO: hasta tres dias por semana.
+HORARIO: de 9 a 18 horas.
+SOPORTE: recupera la contrasena desde inicio de sesion.

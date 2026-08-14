@@ -1,0 +1,11 @@
+VACACIONES
+Cada empleado dispone de 15 dias de vacaciones por ano. La solicitud debe hacerse con al menos cinco dias de anticipacion.
+
+TRABAJO REMOTO
+Se permite trabajar remoto hasta tres dias por semana, coordinando previamente con el equipo.
+
+HORARIO
+La jornada laboral habitual es de 9 a 18 horas, de lunes a viernes.
+
+SOPORTE
+Los usuarios pueden restablecer su contrasena desde la pantalla de inicio de sesion.
