@@ -1,0 +1,18 @@
+{
+  "formato": "32 scripts Python lineales con teoria comentada junto al codigo",
+  "curso": "AEM2 RAG Lectures 3 y 4",
+  "familias": {
+    "00_fundamentos_rag": ["e01_ingestion_chunking_metadata.py"],
+    "01_loaders_y_documentos": ["e02_documentos_metadata_langchain.py"],
+    "02_splitters": ["e03_recursive_character_splitter.py", "e04_chunk_size_overlap.py", "e05_token_budget_contexto.py"],
+    "03_embeddings": ["e06_openai_embeddings.py", "e07_huggingface_embeddings.py", "e08_comparar_embeddings_local_vs_cloud.py"],
+    "04_vectorstores": ["e09_chroma_vectorstore.py", "e10_faiss_vectorstore.py", "e11_persistencia_indices.py"],
+    "05_retrievers": ["e12_similarity_retriever.py", "e13_topk_threshold.py", "e14_mmr_retriever.py", "e15_metadata_filter_retriever.py"],
+    "06_prompts_y_contexto": ["e16_prompt_con_contexto.py", "e17_prompt_con_fuentes.py", "e18_prompt_injection_documental.py"],
+    "07_rag_completo": ["e19_rag_chroma_openai.py", "e20_rag_faiss_huggingface.py", "e21_rag_grounding_abstencion.py"],
+    "08_reranking_y_optimizacion": ["e22_reranking_simple.py", "e23_cache_embeddings.py", "e24_batching.py", "e25_deduplicacion.py"],
+    "09_observabilidad_y_metricas": ["e26_latencia_componentes.py", "e27_recall_precision_mrr.py", "e28_ndcg.py", "e29_overlap_at_k.py"],
+    "10_arquitectura_hibrida": ["e30_failover_local_cloud.py", "e31_circuit_breaker.py", "e32_canary_shadow_traffic.py"],
+    "11_rag_local_huggingface": ["00_revisar_entorno_local.py", "01_embeddings_locales.py", "02_documentos_y_chunks.py", "03_faiss_indice_local.py", "04_retriever_similitud.py", "05_retriever_mmr.py", "06_filtros_metadata.py", "07_persistir_faiss.py", "08_rag_solo_evidencia.py", "09_llm_transformers_local.py", "10_rag_lcel_con_transformers.py", "11_evaluar_retrieval_local.py", "12_chat_huggingface_local.py"]
+  }
+}

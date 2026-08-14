@@ -1,0 +1,16 @@
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+transformers
+torch
+accelerate
+chromadb
+faiss-cpu
+numpy
+psutil

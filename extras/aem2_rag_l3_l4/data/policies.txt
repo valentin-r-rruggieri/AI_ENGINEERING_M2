@@ -1,0 +1,17 @@
+POLITICAS INTERNAS
+
+Vacaciones: cada empleado dispone de 15 dias de vacaciones por ano. La solicitud
+debe realizarse con al menos cinco dias de anticipacion.
+
+Trabajo remoto: se permite trabajar de forma remota hasta tres dias por semana,
+previa coordinacion con el equipo.
+
+Horario: la jornada habitual es de 9 a 18 horas, de lunes a viernes.
+
+Soporte: los usuarios pueden restablecer su contrasena desde la pantalla de
+inicio de sesion mediante el enlace "Olvide mi contrasena".
+
+Beneficios: la empresa ofrece cobertura medica a todos los empleados.
+
+Producto: los administradores pueden exportar reportes desde el panel de
+analitica.
